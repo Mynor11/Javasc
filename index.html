@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage</title>
+    <link rel="shortcut icon" href="img/icon.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="content">
+        <center>
+            <img src="img/logo.jpg" class="logotipo" alt="logo">
+        </center>
+        <div id="contenedor1">   
+            <p><b>Agregar un Curso</b></p>
+            <input type="text" class="form" id="guardar" placeholder="Ingrese Nombre del Curso">
+            <input type="button" class="btn btn-primero" value="Guardar" onclick="anade()">
+            <p><b>Cursos</b></p>
+            <ul class="list1">
+            </ul>
+        </div>
+        <div id="contenedor2">
+            <p><b>Eliminar un Curso</b></p>
+            <input type="text" class="form" id="eliminar" placeholder="Ingrese nombre del Curso">
+            <input type="button" class="btn btn-primero"  value="Eliminar" onclick="anade2()">
+            <p><b>Cursos</b></p>
+            <ul class="list1">
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="dom.js"></script>
+</body>
+</html>
